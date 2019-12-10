@@ -5,7 +5,7 @@ for test 19-12-10
 userid, password, nickname을
 Json형식으로 작성할 것
 
-[POST]
+[POST] body/raw/
 <pre>
 {
   'userid':'gildong123',
@@ -32,7 +32,7 @@ Json형식으로 작성할 것
 ## 로그인
 userid, password
 
-[POST]
+[POST] body/raw/
 <pre>
   'userid':'gildong123',
   'password':'bimilbeonho486'
